@@ -10,7 +10,8 @@
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:contentDescription="@string/activity_main_swipe_refresh_description">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
@@ -33,7 +34,8 @@
         app:borderWidth="0dp"
         app:elevation="6dp"
         app:fabSize="normal"
-        app:pressedTranslationZ="12dp" />
+        app:pressedTranslationZ="12dp"
+        android:contentDescription="@string/activity_main_fab_description" />
 
     <TextView
         android:id="@+id/error"
