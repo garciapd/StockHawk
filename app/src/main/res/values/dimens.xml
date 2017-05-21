@@ -7,9 +7,6 @@
     <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_pressed_translation">12dp</dimen>
 
-
-
-
     <dimen name="list_item_width">0dp</dimen>
     <dimen name="list_item_price_margin_end">10sp</dimen>
     <dimen name="list_item_change_padding_start">3dp</dimen>
@@ -20,5 +17,10 @@
     <dimen name="dialog_margin_start">4dp</dimen>
     <dimen name="dialog_margin_end">4dp</dimen>
     <dimen name="dialog_margin_top">16dp</dimen>
+
+
+    <dimen name="detail_margin">8dp</dimen>
+    <dimen name="detail_widht_height">0dp</dimen>
+
 
 </resources>

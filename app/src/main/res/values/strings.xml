@@ -41,5 +41,8 @@
     <string name="activity_main_list_item_change" translatable="false">100%</string>
     <string name="activity_main_error" translatable="true">Error message</string>
 
+    <string name="stock_detail_no_data" translatable="true">There is no data available</string>
+    <string name="stock_detail_chart_description" translatable="true">Powered by Yahoo!</string>
+
 
 </resources>
