@@ -23,4 +23,8 @@
     <dimen name="detail_widht_height">0dp</dimen>
 
 
+    <dimen name="widget_stock_default_height">160dp</dimen>
+    <dimen name="widget_stock_default_width">160dp</dimen>
+
+
 </resources>

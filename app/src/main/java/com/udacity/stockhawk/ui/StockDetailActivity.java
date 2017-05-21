@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import com.github.mikephil.charting.charts.LineChart;
@@ -37,7 +38,7 @@ import butterknife.ButterKnife;
  * Created with MPAndroidChart Time Line
  */
 
-public class StockDetailActivity extends FragmentActivity{
+public class StockDetailActivity extends AppCompatActivity{
 
     @BindView(R.id.chart1)
     LineChart chart;

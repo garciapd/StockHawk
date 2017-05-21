@@ -44,5 +44,7 @@
     <string name="stock_detail_no_data" translatable="true">There is no data available</string>
     <string name="stock_detail_chart_description" translatable="true">Powered by Yahoo!</string>
 
+    <string name="widget_title_stock" translatable="true">Stock Quotes</string>
+
 
 </resources>
