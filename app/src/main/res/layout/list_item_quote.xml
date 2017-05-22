@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="start|center_vertical"
+        android:textColor="@color/white"
         tools:text="@string/activity_main_list_item_text" />
 
     <LinearLayout
@@ -29,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/list_item_price_margin_end"
+            android:textColor="@color/white"
             tools:text="@string/activity_main_list_item_price" />
 
         <TextView
@@ -40,6 +42,7 @@
             android:paddingStart="@dimen/list_item_change_padding_start"
             android:paddingEnd="@dimen/list_item_change_padding_end"
             android:textDirection="ltr"
+            android:textColor="@color/white"
             tools:text="@string/activity_main_list_item_change" />
     </LinearLayout>
 </LinearLayout>
