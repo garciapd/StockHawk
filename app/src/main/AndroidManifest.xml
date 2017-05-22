@@ -61,6 +61,7 @@
             android:enabled="true"
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service android:name=".widget.StockHawkWidgetIntentService" />
     </application>
 
 </manifest>

@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/ll"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:id="@+id/widget_main_bar"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary">
 
-        <include
-            android:id="@+id/include"
-            layout="@layout/list_item_quote"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/widget_name"
+            android:layout_width="@dimen/widget_stock_layout_width"
             android:layout_height="match_parent"
-
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/widget_stock_header_margin"
+            android:layout_marginEnd="@dimen/widget_stock_header_margin"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            tool:text="@string/app_name"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"/>
     </LinearLayout>
 
-</FrameLayout>
+    <ListView
+        android:id="@+id/widget_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"></ListView>
+
+</LinearLayout>
